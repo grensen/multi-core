@@ -3,6 +3,9 @@
 ## First Start
 ![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_init.png?raw=true)
 
+## Intuition
+![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_intuition.png?raw=true)
+
 ## Batchsize 800
 ![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_800.png?raw=true)
 
