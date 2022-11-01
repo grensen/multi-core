@@ -27,5 +27,5 @@
 ## Batchsize 1
 ![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_1.png?raw=true)
 
-## A part pf my CPU history
+## A part of my CPU history
 ![alt text](https://github.com/grensen/multi-core/blob/main/figures/cpu_generations.jpg_rdy.png?raw=true)
