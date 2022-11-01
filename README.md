@@ -33,9 +33,8 @@
 
 ## Batchsize 50
 <p align="center">
-  <img src="">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_50.png?raw=true">
 </p>
-![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_50.png?raw=true)
 
 ## Batchsize 10
 <p align="center">
