@@ -1,13 +1,14 @@
 # Multi-Core Neural Network Demo Using C#
 
-## First Start
-<p align="center">
-  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_init.png?raw=true">
-</p>
 
 ## Intuition
 <p align="center">
   <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_intuition.png?raw=true">
+</p>
+
+## First Start
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_init.png?raw=true">
 </p>
 
 ## Batchsize 800
