@@ -16,7 +16,7 @@ int[] network    = { 784, 100, 100, 10 };
 var LEARNINGRATE = 0.0005f;
 var MOMENTUM     = 0.67f;
 var EPOCHS       = 50;
-var BATCHSIZE    = 1;
+var BATCHSIZE    = 800;
 var FACTOR       = 0.99f;
 
 RunDemo(d, network, LEARNINGRATE, MOMENTUM, FACTOR, EPOCHS, BATCHSIZE);
