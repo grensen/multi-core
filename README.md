@@ -1,31 +1,52 @@
 # Multi-Core Neural Network Demo Using C#
 
 ## First Start
-![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_init.png?raw=true)
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_init.png?raw=true">
+</p>
 
 ## Intuition
-![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_intuition.png?raw=true)
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_intuition.png?raw=true">
+</p>
 
 ## Batchsize 800
-![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_800.png?raw=true)
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_800.png?raw=true">
+</p>
 
 ## Batchsize 400
-![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_400.png?raw=true)
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_400.png?raw=true">
+</p>
 
 ## Batchsize 200
-![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_200.png?raw=true)
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_200.png?raw=true">
+</p>
 
 ## Batchsize 100
-![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_100.png?raw=true)
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_100.png?raw=true">
+</p>
 
 ## Batchsize 50
+<p align="center">
+  <img src="">
+</p>
 ![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_50.png?raw=true)
 
 ## Batchsize 10
-![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_10.png?raw=true)
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_10.png?raw=true">
+</p>
 
 ## Batchsize 1
-![alt text](https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_1.png?raw=true)
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_1.png?raw=true">
+</p>
 
 ## A part of my CPU history
-![alt text](https://github.com/grensen/multi-core/blob/main/figures/cpu_generations.jpg_rdy.png?raw=true)
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/cpu_generations.jpg_rdy.png?raw=true">
+</p>
