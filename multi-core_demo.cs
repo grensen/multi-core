@@ -1,4 +1,5 @@
 // https://github.com/grensen/multi-core
+check
 
 System.Action<string> print = System.Console.WriteLine;
 
