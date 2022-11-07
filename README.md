@@ -46,6 +46,11 @@
   <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_1.png?raw=true">
 </p>
 
+## Code Intuition
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/network_intuition.png?raw=true">
+</p>
+
 https://browser.geekbench.com/processor-benchmarks
 ## 10 Years CPU Benchmark Single-Core 
 <p align="center">
