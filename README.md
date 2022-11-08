@@ -62,6 +62,11 @@ https://browser.geekbench.com/processor-benchmarks
   <img src="https://github.com/grensen/multi-core/blob/main/figures/bench_decade_multi_core.gif?raw=true">
 </p>
 
+## The Used CPU - AMD 5600x 
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/bench_decade_multi_core.gif?raw=true">
+</p>
+
 ## A part of my CPU history
 <p align="center">
   <img src="https://github.com/grensen/multi-core/blob/main/figures/cpu_generations.jpg_rdy.png?raw=true">
