@@ -16,6 +16,11 @@
   <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_800.png?raw=true">
 </p>
 
+## Batchsize 800 With .NET 7
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_800_dotnet7.png?raw=true">
+</p>
+
 ## Batchsize 400
 <p align="center">
   <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_400.png?raw=true">
