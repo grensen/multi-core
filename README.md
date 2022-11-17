@@ -16,6 +16,31 @@
   <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_800.png?raw=true">
 </p>
 
+## Single vs. Multi Core Batch Training Code Details
+~~~cs
+for (int b = 0; b < B; b++)
+    if (multiCore)
+    {
+        System.Threading.Tasks.Parallel.ForEach(
+            System.Collections.Concurrent.Partitioner.Create(b * BATCHSIZE, (b + 1) * BATCHSIZE), range =>
+            {
+                for (int x = range.Item1, X = range.Item2; x < X; x++)
+                    c[x] = EvalAndTrain(x, d.samplesTraining, neural, delta, d.labelsTraining[x]);
+            });
+        System.Threading.Tasks.Parallel.ForEach(
+            System.Collections.Concurrent.Partitioner.Create(0, neural.weights.Length), range =>
+            {
+                UpdateWeights(range.Item1, range.Item2, neural.weights, delta, lr, mom);
+            });
+    }
+    else
+    {
+        for (int x = b * BATCHSIZE, X = (b + 1) * BATCHSIZE; x < X; x++)
+            c[x] = EvalAndTrain(x, d.samplesTraining, neural, delta, d.labelsTraining[x]);
+        UpdateWeights(0, neural.weights.Length, neural.weights, delta, lr, mom);
+    }
+~~~
+
 ## Batchsize 800 With .NET 7
 <p align="center">
   <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_800_dotnet7.png?raw=true">
