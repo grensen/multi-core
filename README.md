@@ -76,6 +76,24 @@ for (int b = 0; b < B; b++)
   <img src="https://github.com/grensen/multi-core/blob/main/figures/multi-core_batch_1.png?raw=true">
 </p>
 
+## Floatings Point Issues
+~~~cs
+float[] array = new float[10];
+for (int i = 0; i < array.Length; i++)
+{
+    array[i] = 0.01f * (i + 1);
+}
+float a = 0, b = 0;
+for (int i = 0; i < 10; i++)
+{
+    a += array[i];
+    b += array[9 - i];
+}
+System.Console.WriteLine("a = " + a + " b = " + b);
+// output
+// a = 0.55 b = 0.54999995
+~~~
+
 ## Code Intuition
 <p align="center">
   <img src="https://github.com/grensen/multi-core/blob/main/figures/network_intuition.png?raw=true">
