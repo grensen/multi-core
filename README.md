@@ -93,6 +93,11 @@ System.Console.WriteLine("a = " + a + " b = " + b);
 // output: a = 0.55 b = 0.54999995
 ~~~
 
+## Test It On [.NET Fiddle](https://dotnetfiddle.net/) or (.NET Fiddle)[https://dotnetfiddle.net/]
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/dotnetfiddle_floating_point_issue.png?raw=true">
+</p>
+
 ## Code Intuition
 <p align="center">
   <img src="https://github.com/grensen/multi-core/blob/main/figures/network_intuition.png?raw=true">
