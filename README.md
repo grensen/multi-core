@@ -98,6 +98,10 @@ System.Console.WriteLine("a = " + a + " b = " + b);
   <img src="https://github.com/grensen/multi-core/blob/main/figures/dotnetfiddle_floating_point_issue.png?raw=true">
 </p>
 
+## What ChatGPT Says
+<p align="center">
+  <img src="https://github.com/grensen/multi-core/blob/main/figures/network_intuition.png?raw=true">
+</p>
 ## Code Intuition
 <p align="center">
   <img src="https://github.com/grensen/multi-core/blob/main/figures/network_intuition.png?raw=true">
