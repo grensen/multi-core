@@ -103,10 +103,21 @@ System.Console.WriteLine("a = " + a + " b = " + b);
   <img src="https://github.com/grensen/multi-core/blob/main/figures/chatGPT_floating_point_issue.png?raw=true">
 </p>
 
-## Code Intuition
-<p align="center">
-  <img src="https://github.com/grensen/multi-core/blob/main/figures/network_intuition.png?raw=true">
-</p>
+## IPC Comparison of Different AMD and Intel CPU Generations for Addition, Multiplication, and Division
+
+| CPU Model                   | Addition IPC | Multiplication IPC | Division IPC |
+|-----------------------------|:------------:|:------------------:|:------------:|
+| Intel Core i7-2600 (Sandy Bridge)   |       2      |         2          |      1       |
+| Intel Core i7-6700K (Skylake)       |       4      |         4          |      1       |
+| Intel Core i9-9900K (Coffee Lake)  |       4      |         4          |      1       |
+| Intel Core i9-11900K (Rocket Lake) |       4      |         4          |      2       |
+| AMD FX-8350 (Bulldozer)             |       2      |         2          |      1       |
+| AMD Ryzen 7 1800X (Zen)            |       4      |         4          |      2       |
+| AMD Ryzen 7 2700X (Zen+)           |       4      |         4          |      2       |
+| AMD Ryzen 5 5600X (Zen 3)          |       4      |         4          |      2       |
+
+Please note that this table shows the IPC for addition, multiplication, and division for each CPU model, and that the actual IPC can vary depending on a number of factors, including architecture, clock speed, number of cores and threads, cache size, and others.
+
 
 https://browser.geekbench.com/processor-benchmarks
 ## 10 Years CPU Benchmark Single-Core 
